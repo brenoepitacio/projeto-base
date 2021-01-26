@@ -1,0 +1,16 @@
+.imagem-carrosel {
+    object-fit: cover;
+    object-position: 0 30%;
+    height: 400px;
+}
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+    color: orange;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    color: red;
+    font-size: 2em;
+}
