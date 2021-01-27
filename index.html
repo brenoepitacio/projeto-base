@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand logo" href="#">Tio do lámen</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,11 +22,12 @@
             <li><a class="nav-link active" aria-current="page" href="index.html">início</a></li>
             <li><a class="nav-link" href="cardapio.html">cardápio</a></li>
             <li><a class="nav-link" href="quemsomos.html">quem somos</a></li>
-            <li><a class="nav-link " href="contato.html">contato</a></li>
+            <li><a class="nav-link " data-bs-toggle="modal" data-bs-target="#modal-contato" href="contato.html">contato</a></li>
           </ul>
         </div>
      </div>
     </nav>
+
   <main>
 
     <section id="carrosel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
@@ -70,7 +71,7 @@
       <p class="text-center text-secondary pb-5">Temos muitas variedades e os melhores preços</p>
     </section>    
 
-    <section class="container" id="mais-pedidos">
+    <section class="container-fluid bg-light" id="mais-pedidos">
       <div class="row justify-content-center">
 
         <article class="card card-largura col-xxl-4 col-md-4 col-12 col-sm-0 p-0 m-3" id="borda-cor-especial">
@@ -126,10 +127,30 @@
               <a href="#" class="btn" id="bt-cor-especial">Faça seu pedido</a>
             </div>
         </article>
-        </div>
+          </div>
+      </section>
 
-    </section>
   </main>
+
+<!-- Modal -->
+<div class="modal fade" id="modal-contato" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
