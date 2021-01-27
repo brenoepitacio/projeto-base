@@ -1,3 +1,7 @@
+.card-largura {
+    max-width: 18rem;
+}
+
 .imagem-carrosel {
     object-fit: cover;
     object-position: 0 30%;
@@ -9,15 +13,35 @@
 }
 
 
-.fonte-titulo-especial {
-    font-family: 'Pacifico', cursive;
+.cor-especial {
     color: rgb(166, 23, 23);
 }
 
 .fonte-titulo-carrosel {
     font-family: 'Pacifico', cursive;
-    color: orange;
+    color:white;
 }
+
+
+#bt-cor-especial {
+    background-color: darkred;
+    color: white;
+}
+
+#borda-cor-especial {
+    border-color: darkred;
+
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+
+
+
+
+
 
 .logo {
     font-family: 'Pacifico', cursive;

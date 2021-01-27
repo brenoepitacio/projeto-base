@@ -3,74 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ramen Rose</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Tio do lámen</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand logo" href="#">Raman Rose</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="index.html">início</a>
-          <a class="nav-link" href="cardapio.html">cardápio</a>
-          <a class="nav-link" href="quemsomos.html">quem somos</a>
-          <a class="nav-link " href="contato.html">contato</a>
-        </div>
-      </div>
-    </div>
-  </nav>
-</header>
+
 <body>
-  
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
-    <ol class="carousel-indicators">
-      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/carrosel-img-3.jpg" class="d-block w-100 imagem-carrosel" alt="...">
-        <div class="carousel-caption d-none d-md-block h-50">
-          <h1 class="fonte-titulo-carrosel display-3">Alimentos naturais</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">Tio do lámen</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li><a class="nav-link active" aria-current="page" href="index.html">início</a></li>
+            <li><a class="nav-link" href="cardapio.html">cardápio</a></li>
+            <li><a class="nav-link" href="quemsomos.html">quem somos</a></li>
+            <li><a class="nav-link " href="contato.html">contato</a></li>
+          </ul>
+        </div>
+     </div>
+    </nav>
+  <main>
+
+    <section id="carrosel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carrosel-img-3.jpg" class="d-block w-100 imagem-carrosel" alt="...">
+          <div class="carousel-caption d-none d-md-block h-50">
+            <h1 class="fonte-titulo-carrosel display-3">Alimentos naturais</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrosel-img-2.jpg" class="d-block w-100 imagem-carrosel" alt="...">
+          <div class="carousel-caption d-none d-md-block h-50">
+            <h1 class="fonte-titulo-carrosel display-3 ">Os melhores pratos você encontra aqui</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrosel-img-1.jpg" class="d-block w-100 imagem-carrosel" alt="...">
+          <div class="carousel-caption d-none d-md-block h-50">
+            <h1 class="fonte-titulo-carrosel display-3">Temos o melhor sushi da região</h1>
+          </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="img/carrosel-img-2.jpg" class="d-block w-100 imagem-carrosel" alt="...">
-        <div class="carousel-caption d-none d-md-block h-50">
-          <h1 class="fonte-titulo-carrosel display-3 ">Os melhores pratos você encontra aqui</h1>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </section>
+
+    <section id="titulo-principal">
+      <h1 class="text-center fonte-titulo cor-especial pt-5">Sejam bem vindos ao melhor restaurante da região</h1>
+      <p class="text-center text-secondary pb-5">Temos muitas variedades e os melhores preços</p>
+    </section>    
+
+    <section class="container" id="mais-pedidos">
+      <div class="row justify-content-center">
+
+        <article class="card card-largura col-xxl-4 col-md-4 col-12 col-sm-0 p-0 m-3" id="borda-cor-especial">
+          <img src="img/maispedidos-01.jpg" class="card-img-top card-posicao-imagem card" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Spring</h5>
+              <p class="card-text">Especial da casa.</p>
+              <a href="#" class="btn" id="bt-cor-especial">Faça seu pedido</a>
+            </div>
+        </article>
+
+        <article class="card card-largura col-xxl-4 col-md-4 col-12 col-sm-0 p-0 m-3" id="borda-cor-especial">
+          <img src="img/maispedidos-02.jpg" class="card-img-top card-posicao-imagem" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sushi</h5>
+              <p class="card-text">Especial da casa.</p>
+              <a href="#" class="btn" id="bt-cor-especial">Faça seu pedido</a>
+            </div>
+        </article>
+
+        <article class="card card-largura col-xxl-4 col-md-4 col-12 col-sm-0 p-0 m-3" id="borda-cor-especial">
+          <img src="img/maispedidos-03.jpg" class="card-img-top card-posicao-imagem" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sashimi</h5>
+              <p class="card-text">Especial da casa.</p>
+              <a href="#" class="btn" id="bt-cor-especial">Faça seu pedido</a>
+            </div>
+        </article>
+
+        <article class="card card-largura col-xxl-4 col-md-4 col-12 col-sm-0 p-0 m-3" id="borda-cor-especial">
+          <img src="img/maispedidos-04.jpg" class="card-img-top card-posicao-imagem" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Combo picante</h5>
+              <p class="card-text">Especial da casa.</p>
+              <a href="#" class="btn" id="bt-cor-especial">Faça seu pedido</a>
+            </div>
+        </article>
+
+        <article class="card card-largura col-xxl-4 col-md-4 col-12 col-sm-0 p-0 m-3" id="borda-cor-especial">
+          <img src="img/maispedidos-05.jpg" class="card-img-top card-posicao-imagem" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sushi vegano</h5>
+              <p class="card-text">Especial da casa.</p>
+              <a href="#" class="btn" id="bt-cor-especial">Faça seu pedido</a>
+            </div>
+        </article>
+
+        <article class="card card-largura col-xxl-4 col-md-4 col-12 col-sm-0 p-0 m-3" id="borda-cor-especial">
+          <img src="img/maispedidos-06.jpg" class="card-img-top card-posicao-imagem" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sushi vegano</h5>
+              <p class="card-text">Especial da casa.</p>
+              <a href="#" class="btn" id="bt-cor-especial">Faça seu pedido</a>
+            </div>
+        </article>
         </div>
-      </div>
-      <div class="carousel-item">
-        <img src="img/carrosel-img-1.jpg" class="d-block w-100 imagem-carrosel" alt="...">
-        <div class="carousel-caption d-none d-md-block h-50">
-          <h1 class="fonte-titulo-carrosel display-3">Temos o melhor sushi da região</h1>
-        </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </a>
-  </div>
 
-  <h1 class="text-center fonte-titulo-especial">Sejam bem vindos ao melhor restaurante da região</h1>
-  <p class="text-center text-secondary">Temos muitas variedades e os melhores preços</p>
-  
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
-
+    </section>
+  </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
